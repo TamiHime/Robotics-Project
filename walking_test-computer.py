@@ -30,9 +30,6 @@ for x in range (1,1,6):
     LX16A(x).get_physical_angle() == 120
     while False:
         LX16A(x).move(10,10)
-        
-    
-
 
 
 try:
@@ -52,4 +49,4 @@ while True:
     #servo3.move(sin(t)* 10 + 30)
 
     time.sleep(0.1)
-    t += 0.1
+    t += 1
